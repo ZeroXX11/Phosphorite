@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "phosphorite",
+	"version": "${version}",
+	"name": "Phosphorite",
+	"description": "Discover Phosphorite, a rare mineral that adds new depth and purpose to the world of Minecraft!",
+	"authors": [
+		"ZeroXXII"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/phosphorite/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.zeroxxii.phosphorite.Phosphorite"
+		],
+        "client": [
+          "net.zeroxxii.phosphorite.PhosphoriteClient"
+        ],
+		"fabric-datagen": [
+			"net.zeroxxii.phosphorite.PhosphoriteDataGenerator"
+		]
+	},
+	"mixins": [
+		"phosphorite.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.3",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
