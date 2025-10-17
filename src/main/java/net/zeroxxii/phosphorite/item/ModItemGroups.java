@@ -11,7 +11,7 @@ import net.zeroxxii.phosphorite.Phosphorite;
 
 public class ModItemGroups {
     public static final ItemGroup PHOSPHORITE_GROUP = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(Phosphorite.MOD_ID, "Phosphorite"),
+            new Identifier(Phosphorite.MOD_ID, "phosphorite"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.phosphorite"))
                     .icon(() -> new ItemStack(ModItems.PHOSPHORITE)).entries((displayContext, entries) -> {
                         entries.add(ModItems.RAW_PHOSPHORITE);
