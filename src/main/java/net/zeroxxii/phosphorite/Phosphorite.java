@@ -2,6 +2,7 @@ package net.zeroxxii.phosphorite;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.zeroxxii.phosphorite.block.ModBlocks;
 import net.zeroxxii.phosphorite.item.ModItemGroups;
 import net.zeroxxii.phosphorite.item.ModItems;
 import org.slf4j.Logger;
@@ -15,5 +16,6 @@ public class Phosphorite implements ModInitializer {
 	public void onInitialize() {
         ModItemGroups.registerItemGroups();
         ModItems.registerModItems();
+        ModBlocks.registerModBlocks();
 	}
 }

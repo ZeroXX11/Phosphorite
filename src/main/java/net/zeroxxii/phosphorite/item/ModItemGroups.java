@@ -8,6 +8,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.zeroxxii.phosphorite.Phosphorite;
+import net.zeroxxii.phosphorite.block.ModBlocks;
 
 public class ModItemGroups {
     public static final ItemGroup PHOSPHORITE_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -16,6 +17,7 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.PHOSPHORITE)).entries((displayContext, entries) -> {
                         entries.add(ModItems.RAW_PHOSPHORITE);
                         entries.add(ModItems.PHOSPHORITE);
+                        entries.add(ModBlocks.PHOSPHORITE_ORE);
 
                     }).build());
 
