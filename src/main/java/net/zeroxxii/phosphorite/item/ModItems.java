@@ -12,9 +12,11 @@ import net.zeroxxii.phosphorite.Phosphorite;
 
 public class ModItems {
     public static final Item RAW_PHOSPHORITE = registerItem("raw_phosphorite", new Item(new FabricItemSettings()));
+    public static final Item PHOSPHORITE = registerItem("phosphorite", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(RAW_PHOSPHORITE);
+        entries.add(PHOSPHORITE);
     }
 
     private static Item registerItem(String name, Item item) {
