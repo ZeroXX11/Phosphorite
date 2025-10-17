@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "phosphorite:phosphorite_ore"
+    "phosphorite:phosphorite_ore",
+    "phosphorite:deepslate_phosphorite_ore"
   ]
 }

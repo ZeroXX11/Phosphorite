@@ -4,5 +4,6 @@
   "item.phosphorite.raw_phosphorite": "Raw Phosphorite",
   "item.phosphorite.phosphorite": "Phosphorite",
 
-  "block.phosphorite.phosphorite_ore": "Phosphorite Ore"
+  "block.phosphorite.phosphorite_ore": "Phosphorite Ore",
+  "block.phosphorite.deepslate_phosphorite_ore": "Deepslate Phosphorite Ore"
 }

@@ -20,6 +20,9 @@ public class ModBlocks {
     public static final Block PHOSPHORITE_ORE = registerBlock("phosphorite_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.IRON_ORE), UniformIntProvider.create(1, 3)));
 
+    public static final Block DEEPSLATE_PHOSPHORITE_ORE = registerBlock("deepslate_phosphorite_ore",
+            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_IRON_ORE), UniformIntProvider.create(1, 3)));
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(Phosphorite.MOD_ID, name), block);

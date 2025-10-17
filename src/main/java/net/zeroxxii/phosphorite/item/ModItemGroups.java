@@ -18,6 +18,7 @@ public class ModItemGroups {
                         entries.add(ModItems.RAW_PHOSPHORITE);
                         entries.add(ModItems.PHOSPHORITE);
                         entries.add(ModBlocks.PHOSPHORITE_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_PHOSPHORITE_ORE);
 
                     }).build());
 
